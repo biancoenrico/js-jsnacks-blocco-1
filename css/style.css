@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+.carrello{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.zucchina{
+    text-align: start;
+    margin-top: 55px;
+    display: inline-block;
+    width: 100px;
+}
+img{
+    width: 50px;
+    display: inline-block;
+}
+.grande{
+    width: 75px;
+}
+.result{
+    line-height: 100px;
+}
+.result.tot{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
